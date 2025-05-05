@@ -23,3 +23,9 @@ def verificar_num(num):
     elif num < 0:
         resposta = "N"
     return resposta
+
+def soma(*num):
+    soma =0
+    for i in range(len(num)):
+        soma += num[i]
+    print(soma)
