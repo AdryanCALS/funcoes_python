@@ -1,3 +1,4 @@
 from biblioteca import *
 
-estoque("arroz", 3, 6.5)
+valortotal_arroz = estoque("arroz", 3, 6.5)
+print(valortotal_arroz)

@@ -14,4 +14,12 @@ def vogais(texto):
 
 def estoque(nome_p, qtd_p, valor_p):
     valor_total =  qtd_p * valor_p
-    print(f"O valor total de {nome_p} no estoque é: {valor_total}")
+    return valor_total
+
+def verificar_num(num):
+    resposta = "Z"
+    if num > 0:
+        resposta = "P"
+    elif num < 0:
+        resposta = "N"
+    return resposta
