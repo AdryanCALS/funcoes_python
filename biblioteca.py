@@ -29,3 +29,18 @@ def soma(*num):
     for i in range(len(num)):
         soma += num[i]
     print(soma)
+
+def ler_texto(texto):
+    num_letras = 0
+    for i in range(len(texto)-1,-1,-1):
+        if texto[i] != " ":
+            num_letras +=1
+        print(texto[i], end="")
+    print(f"\n{num_letras}")
+
+def checar_lista(lista):
+    nova_lista = []
+    for i in range(len(lista)):
+        if lista[i] not in nova_lista:
+            nova_lista.append(lista[i])
+    print(nova_lista)
